@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zlate palce</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="zlate palce">
+	<meta name="keywords" content="html, značke, tag">
+	<meta name="author" content="Jon Novak in Lovro Basar">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="Style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<nav>
+    <div class="navbar">
+        <a href="index.html"><button class="btn home"><i class="fa fa-home"></i> Zlate Palice</button></a>
+    <div class="dropdown">
+            <button class="btn menu"><i class="fa fa-bars"></i></button>
+        <div class="dropdown-content">
+          <a href="opis.html" class="zgori">Opis</a>
+          <a href="navodila.html">Navodila</a>
+          <a href="teorija.html">Teorija igre</a>
+          <a href="zahvala.html" class="spodi">Zahvala</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="naslov">
+      <p>
+          <h2>TEORIJA IGRE</h2>
+      </p>
+  </div>
+  <div class="besedilo">
+    <h4>
+      <p>Igro Zlatih palic lahko zmagamo z uporabo enostavnega algoritma, razen v primeru, da se igra že začne v nim položaju.</p>
+      <p>Nim položaj prepoznamo tako, da pretvorimo število palic v vsaki škatli v dvojiški sistem, števila zapišemo v stolpec in jih desno poravnano. Od leve proti desni pregledamo vsak navpični stolpec in če je v vsakem stolpcu sodo število enic, se temu položaju reče Nim položaj.</p>
+      <p>Ko smo na potezi, si lahko zagotovimo zmago, če nismo že v Nim položaju, tako da le ta položaj ustvarimo. Ta položaj ustvarimo tako, da izvedemo zgoraj naveden postopek pregleda, ali smo že v Nim položaju, ko pa naletimo na prvi stolpec, v katerem je število enic liho, pregledamo katero izmed števil, ki imajo v tem stolpcu enico, je največje. To število bomo spremenili, oziroma v drugih besedah sedaj vemo iz katere škatle bomo vzeli določeno število palic. Koliko palic pa je potrebno vzeti pa ugotovimo tako, da določimo koliko palic mora v škatli ostati (po slednjem postopku), nato pa izračunamo razliko teh dveh števil. Izbrano število zmanjšamo tako, da v vsakem izmed navpičnih stolpcev, v katerih je število enic liho, izbranemu številu 0 spremenimo v 1, oz. 1 v 0.</p>
+      <p>Ta sistem nam vsakič zagotovi zmago, če mu uspemo slediti brez napak celo igro in imamo prvo potezo ter ne začnemo v Nim poziciji.</p>
+      <p>Sistem je uporaben za obe varianti pravil, razlika je le v zadnji potezi.</p>
+    </h4>
+  </div>
+</body>
