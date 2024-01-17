@@ -167,6 +167,13 @@
     width: 225px;
     float: right;
   }
+  
+  .slika1{
+    width: 15%;
+    float: right;
+    position: relative;
+    left: -15%;
+  }
 
   .besedilo1{
     width: 675px;
@@ -187,8 +194,10 @@
   }
 
   .racunalnik{
-    width: 75%;
+    width: 45%;
     float: left;
+    position: relative;
+    left: 15%;
     padding-right: 25px;
     font-family: "Poppins", sans-serif;
     color: black;
@@ -237,4 +246,6 @@
     height: 300px;
     margin-left: 15%;
     margin-right: 15%;
+    /*width: 100%;*/
+    vertical-align: top;
   }
