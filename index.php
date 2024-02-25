@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Zlate palce</title>
+	<title>Zlate palice</title>
 	<meta charset="UTF-8">
-	<meta name="description" content="zlate palce">
+	<meta name="description" content="zlate palice">
 	<meta name="keywords" content="html, značke, tag">
 	<meta name="author" content="Jon Novak in Lovro Basar">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
